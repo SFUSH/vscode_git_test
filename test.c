@@ -1,8 +1,7 @@
 #include "stdio.h"
 
 /**
- * @brief  指针交换函数
- *
+ * @brief  交换函数
  * @param a
  * @param b
  */
@@ -15,7 +14,6 @@ void swap(int *a, int *b)
 }
 /**
  * @brief 主函数入口函数
- *
  * @return int
  */
 int main()
