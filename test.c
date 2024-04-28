@@ -2,14 +2,19 @@
 
 void swap(int *a, int *b)
 {
-    int temp;
-    temp = *a;
-    *a = *b;
-    *b = temp;
+  int temp;
+  temp = *a;
+  *a = *b;
+  *b = temp;
 }
+/**
+ * @brief 主函数入口函数
+ *
+ * @return int
+ */
 int main()
 {
-    int a = 10, b = 11;
-    swap(&a, &b);
-    printf("a = %d\r\nb = %d\r\n", a, b);
+  int a = 10, b = 11;
+  swap(&a, &b);
+  printf("a = %d\r\nb = %d\r\n", a, b);
 }
