@@ -1,8 +1,7 @@
 #include "stdio.h"
 
 /**
- * @brief  指针交换函数
- *
+ * @brief  交换函数
  * @param a
  * @param b
  */
