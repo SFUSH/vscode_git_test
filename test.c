@@ -1,5 +1,11 @@
 #include "stdio.h"
 
+/**
+ * @brief  Ö¸Õë½»»»º¯Êý
+ *
+ * @param a
+ * @param b
+ */
 void swap(int *a, int *b)
 {
   int temp;
