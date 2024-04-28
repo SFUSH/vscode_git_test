@@ -1,0 +1,6 @@
+// 将后缀为.c的文件在diff的时候使用cp936_2_utf8编码转换方式进行
+// cp936_2_utf8是随便命名的
+// cp936是windows的编码格式GBK（兼容GB2312），utf8是我们需要的编码格式
+// 因为在vscode的terminal中是以utf8格式显示的
+*.c	 text diff=cp936_2_utf8	
+// 添加所有的文件需要转换的方式
